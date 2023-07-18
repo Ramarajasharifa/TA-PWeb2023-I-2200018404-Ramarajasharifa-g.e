@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.containerr {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table th, table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.total {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: #f2f2f2;
+    padding: 5px;
+    width: 100px;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #2DFF4D ;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    overflow: auto;
+    background-color: #2DFF4D ;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #F0FF00;
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover{
+    background-color: #4ECCFF;
+    color: #fff;
+}
+.banner{
+    background-image: url(sawah.jpeg);
+    width: 1600px;
+    height:900px;
+}

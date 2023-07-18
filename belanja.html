@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Toko Kidang Kembar</title>
+    <link rel="stylesheet" type="text/css" href="css/stylee.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body bgcolor="fffff">
+
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">KIDANG KEMBAR</a></h1>
+            <ul>
+                <li class="active"><a href="index.html">HOME</a></li>
+        </div>
+    </header>
+
+    <h1>Kasir Toko Kidang Kembar</h1>
+    <div class="container">
+        <form action="checkout.php" method="POST">
+            <table>
+                <tr>
+                    <th>Produk</th>
+                    <th>Harga (per satuan)</th>
+                    <th>Jumlah</th>
+                </tr>
+                <tr>
+                    <td>Amistartop</td>
+                    <td>Rp 65,000</td>
+                    <td><input type="number" name="amistartop" id="amistartop" min="0" onchange="calculateTotal()"></td>
+                </tr>
+                <tr>
+                    <td>Starban</td>
+                    <td>Rp 75,000</td>
+                    <td><input type="number" name="starban" id="starban" min="0" onchange="calculateTotal()"></td>
+                </tr>
+                <tr>
+                    <td>Plenum</td>
+                    <td>Rp 35,000</td>
+                    <td><input type="number" name="plenum" id="plenum" min="0" onchange="calculateTotal()"></td>
+                </tr>
+            </table>
+            <div class="total">
+                <label for="total">Total Pembelian:</label>
+                <input type="text" name="total" id="total" readonly>
+            </div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+</body>
+</html>
